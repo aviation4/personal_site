@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <p>Dzięki poniższemu formularzowi możemy zostać kolegami. Uzupełnij prosze dane.</p>
+    <br><br>
+    <form action="mailto:przemek.kaminski4@gmail.com" method="post" enctype="text/plain">
+
+      <label>Jak masz na imię?</label>
+      <input type="text" name="name" value="">
+      <br><br>
+
+      <label>Data urodzenia: </label>
+      <input type="date" name="dateOfBirth" value="">
+      <br><br>
+
+      <label>Wyślij jakieś swoje zdjęcie: </label>
+      <input type="file" name="photo" value="">
+      <br><br>
+
+      <label>Zaznacz swoją tożsamość płciową: <strong>Mężczyzna</strong></label>
+      <input type="range" name="sexIdentity" value="" min="Mężczyzna" max="Kobieta">
+      <label><strong>Kobieta</strong></label>
+      <br><br>
+
+      <label>Podaj numer telefonu:</label>
+      <input type="number" name="telNumber" value="" placeholder="+48">
+      <br><br>
+
+      <label>Wyrażam zgodę na bycie kolegami na zawsze: </label>
+      <input type="checkbox" name="agreement" value="">
+      <label><strong>Tak</strong></label>
+      <br><br>
+
+      <input type="submit" name="submit" value="Wyślij">
+    </form>
+
+  </body>
+</html>
